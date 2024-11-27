@@ -1,22 +1,26 @@
+// Practice questions 
+// que1. Create a const object called "product" to store information shows in picture
 
-const student = {
-    fullName : "Sandesh Roshan",
-    age : 23,
-    isPass : true
+const product = {
+    productName : "Parker Pen",
+    rating : 4.5,
+    price : 299,
+    isOffer : true 
 }
 
-// let student;
+console.log(product.price);
+console.log(product?.productName);
 
-console.log(student?.age === null ? "true":"false");
-console.log(student.age);
-student.age =24;
+//  que2. Create a const object called "profile" to store information shows in picture.
 
-console.log(student.age);
-student.age = student.age +1;
-console.log(student.age);
+const profile = {
+    fullName : "Sharadha Khapara",
+    userName : "@sharadhakhapara",
+    isFollow : true,
+    post : 124,
+    followers : "12k",
+    following  : 4
+}
 
-student.fullName = student.fullName +1;
-console.log(student.fullName);
-
-student.fullName = student.fullName -1;
-console.log(student.fullName);
+console.log(profile.fullName);
+console.log(profile?.isFollow);
