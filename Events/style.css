@@ -1,0 +1,14 @@
+.box{
+    background-color:rgb(255, 128, 0);
+    height: 100px;
+    width: 100px;
+    margin: 3%;
+}
+
+.light{
+    background-color: white;
+
+}
+.dark{
+    background-color: black;
+}
